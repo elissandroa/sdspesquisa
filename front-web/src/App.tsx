@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
 
-function App() {
-  return (
-  <h1>Hello semana DevSuperior</h1>
-  );
+const App = () => {
+    return (
+        <Header />
+    );
 }
 
 export default App;
