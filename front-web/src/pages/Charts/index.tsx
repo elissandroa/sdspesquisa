@@ -8,10 +8,10 @@ import {buildBarSeries, getPlatformChartData, getGenderChartData} from './helper
 
 type pieChartData={
    labels:string[];
-   series:number;
+   series:number[];
 }
 
-type barChartData={
+type BarChartData={
     x:string;
     y:number;
 }
@@ -24,7 +24,7 @@ const initialPieData = {
 const BASE_URL = 'https://sds1-elissandro.herokuapp.com';
 
 const Charts = () => {
-    const [barChartData, setBarchartData]= useState<BarchartData[]>([]);
+    const [BarChartData, setBarchartData]= useState<BarChartData[]>([]);
     const [platformData, setPlatformData]= useState<pieChartData>(initialPieData); 
     const [genderData, setGenderData]= useState<pieChartData>(initialPieData); 
     
@@ -59,7 +59,7 @@ const Charts = () => {
                         type="bar"
                         width="900"
                         height="650"
-                        series={[{data: barChartData }]}
+                        series={[{data: BarChartData }]}
                         />
                     </div>  
                 </div>
