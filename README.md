@@ -10,15 +10,15 @@ Big Game Survey é uma aplicação full stack web e mobile construída durante a
 A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
 ## Layout mobile
-![Mobile 1](https://github.com/elissandroa/assets/blob/main/assets/mobile1.png) ![Mobile 2](https://github.com/elissandroa/assets/blob/main/assets/mobile2.png)
+![Mobile 1](https://github.com/elissandroa/assets/blob/main/assets/dspesquisa/mobile1.png) ![Mobile 2](https://github.com/elissandroa/assets/blob/main/assets/dspesquisa/mobile2.png)
 
 ## Layout web
-![Web 1](https://github.com/elissandroa/assets/blob/main/assets/web1.png)
+![Web 1](https://github.com/elissandroa/assets/blob/main/assets/dspesquisa/web1.png)
 
-![Web 2](https://github.com/elissandroa/assets/blob/main/assets/web2.png)
+![Web 2](https://github.com/elissandroa/assets/blob/main/assets/dspesquisa/web2.png)
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/elissandroa/assets/blob/main/assets/modelo-conceitual.png)
+![Modelo Conceitual](https://github.com/elissandroa/assets/blob/main/assets/dspesquisa/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 ## Back end
